@@ -225,6 +225,9 @@ end
 def player_by_number(number)
 
   everybody = game_hash[:home][:players].merge(game_hash[:away][:players])
-  binding.pry
+
+  everybody.find do |name, stats|
+    binding.pry
+  end
 end
 player_by_number(33)
