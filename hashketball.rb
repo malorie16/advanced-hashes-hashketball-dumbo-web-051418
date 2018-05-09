@@ -224,6 +224,6 @@ end
 
 def player_by_number(number)
 
-  new_hash = game_hash[:home][:players].merge(game_hash[:away][:players])
+  everybody = game_hash[:home][:players].merge(game_hash[:away][:players])
   binding.pry
 end
