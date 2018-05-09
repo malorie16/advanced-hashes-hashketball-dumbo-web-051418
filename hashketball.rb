@@ -221,3 +221,10 @@ def big_shoe_rebounds
  end)
  shoe_rebounds[:bounds][(shoe_rebounds[:size].index(shoe_rebounds[:size].max))]
 end
+
+def player_by_number(number)
+  
+  new_hash = game_hash[:home][:players].merge(game_hash[:away][:players])
+  binding.pry
+    
+  
