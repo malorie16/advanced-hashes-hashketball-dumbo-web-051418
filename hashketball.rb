@@ -229,7 +229,8 @@ def player_by_number(number)
   var = everybody.find do |name, stats|
     stats[:number] == number
   end
+  binding.pry
+
 end
-binding.pry
 
 player_by_number(33)
